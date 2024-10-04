@@ -1,0 +1,47 @@
+body {
+    margin: 0 auto;  /* Remove default body margin */
+}
+.stApp{
+    background-color:rgb(85, 146, 151);
+}
+.title {
+    margin-top: -630px;
+    margin-left:-200px;
+    color: white;
+    font-size: 90px;
+    transition: color 0.5s;
+}
+
+.title:hover {
+     color: #9e761b;
+}
+
+.subtitle {
+    color: #9e761b; 
+    margin-top: -990px;
+    margin-left:-240px;
+    transition: color 0.2s;
+}
+
+.subtitle:hover {
+     color: white;
+}
+
+.sign {
+    position: absolute;
+    right: 10px;
+    top:-920px
+}
+
+.sign a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(67, 137, 113);
+    padding: 10px;
+    background-color: white;
+}
+
+.sign a:hover {
+    background-color: rgb(139, 238, 243);
+    color: black;
+}

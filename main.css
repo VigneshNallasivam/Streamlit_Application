@@ -1,0 +1,30 @@
+.stSidebar .nav_title {
+    color:#b0cfd3;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+}
+
+.stSidebar {
+    background-color:rgb(72,122,127);
+}
+
+.stButton > button {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    border-radius: none;
+    /* border-style: outset; */
+}
+
+.stButton > button:hover {
+    background-color: #a2e2f8;
+    color: #000;
+}
+
+[data-testid="stSidebar"] img {
+    display: block;
+    margin-left: 50px;
+    margin-right: auto;
+}
